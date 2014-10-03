@@ -14,12 +14,10 @@ namespace suma
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
-			
-			// TODO: Implement Functionality Here
-			
-			Console.Write("Press any key to continue . . . ");
-			Console.ReadKey(true);
+			Console.WriteLine("Dame un numero: ");
+			int n1=int.Parse(Console.ReadLine());
+			Console.WriteLine("Dame otro numero: ");
+			int n2=int.Parse(Console.ReadLine());
 		}
 	}
 }
